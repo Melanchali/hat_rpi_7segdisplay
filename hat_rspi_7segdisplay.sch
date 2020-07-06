@@ -1469,6 +1469,7 @@ with different sets of drill holes or mounting pads for model B Revision 2.0</de
 </deviceset>
 </devicesets>
 </library>
+<<<<<<< HEAD
 <library name="hat_rpi_7segdisplay">
 <packages>
 <package name="5642AH">
@@ -6075,6 +6076,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+=======
+>>>>>>> e1075c6565caaf353831fa2fb7550475b4863d93
 </libraries>
 <attributes>
 </attributes>
@@ -6086,6 +6089,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<<<<<<< HEAD
 <part name="IC1" library="max6958" deviceset="MAX6958" device=""/>
 <part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_BOARD_AB" device="_E0"/>
 <part name="U1" library="hat_rpi_7segdisplay" deviceset="5641AH" device=""/>
@@ -6097,6 +6101,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1"/>
+=======
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="IC1" library="max6958" deviceset="MAX6958" device=""/>
+<part name="X1" library="raspberrypi_bastelstube_v13" deviceset="RASPI_BOARD_AB" device="_E0"/>
+>>>>>>> e1075c6565caaf353831fa2fb7550475b4863d93
 </parts>
 <sheets>
 <sheet>
@@ -6149,6 +6158,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="174.7566" y="97.097" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="169.956" y="97.097" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="IC1" gate="G$1" x="187.96" y="142.24" smashed="yes">
+<attribute name="NAME" x="183.1975" y="160.02" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="176.8475" y="123.5075" size="1.27" layer="96"/>
+</instance>
+<instance part="X1" gate="G$1" x="119.38" y="144.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
